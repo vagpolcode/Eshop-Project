@@ -1,0 +1,184 @@
+body{ color: white; background-image: url(ss.png);  background-repeat: no-repeat;
+	background-size: 100% 100%;  
+	}
+div{  background-image: url(crys.JPG);background-color: antikwhite; background-repeat: no-repeat; 
+	  background-size: 100% 100%; padding: 100px; margin: 50px 150px 100px 150px; border-radius: 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }	
+	
+.merg{ margin-left: 30px; margin-right: 30px; }	
+
+.login1{ border: 5px solid black; color: white; background-image: url(mini.JPG); padding: 
+	8px; margin-top: 25px; border-radius: 30px; } 
+	
+#reg{ color: orange; }
+#reg:hover{ color: red; }
+
+.logo{ margin-bottom: 20px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+.logo:hover{ box-shadow: 0 4px 8px 0 red, 0 6px 20px 0 red;  }
+#ico{ width:300px; height:300px; }
+#ico2{ width:100px; height:100px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+#ico_home{ width:300px; height:300px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			border-radius: 30px;}
+#ico_home:hover{ width:500px; height:500px; }
+
+p{ border: 5px solid darkgray; background-color: darkgray; padding: 
+	8px; margin-top: 25px; border-radius: 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+	
+.table_style{ border: 5px solid darkgray; background-color: darkgray; padding: 
+	8px; margin-top: 25px; border-radius: 30px; 
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+.table_style2{ background-color: seagreen;
+	padding: 8px; margin-top: 25px; border-radius: 30px; 
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }	
+.table_style3{ background-image: url(fom0.JPG); padding: 8px; margin-top: 25px; border-radius: 30px; 
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+.table_category{ background-image: url(gag.JPG); text-align: center;}	
+	
+th{ font-size: 1.5em; border: 5px solid darkgreen; background-color: darkgreen; padding: 
+	8px; margin-top: 25px; border-radius: 30px; 
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}	
+td{ padding: 10px 30px 10px 30px; }	
+
+input{ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+input:hover{ box-shadow: 0 4px 8px 0 red, 0 6px 20px 0 rgb(255, 179, 179); background-color: rgb(255, 179, 179); }
+
+#subm{ padding: 10px 30px 10px 30px; margin-top: 30px;}
+#subm2{ padding: 5px 20px 5px 20px; margin-left: 20px;}
+#subm3{ padding: 5px 20px 5px 20px; margin-left: 20px; width:30px; height:30px;}
+
+.buy{background-position: right 45% bottom 48%;  background-size: 60% 60%;
+	background-image: url(buy.png); background-repeat: no-repeat; }
+	
+#foto{  width:900px; height:200px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		margin-top: 50px;}
+	
+b{  }
+
+
+
+.tooltip {position: relative; display: inline-block;  }
+.tooltip .tooltiptext { visibility: hidden; width: 300px; background-image: url(Illustration.JPG); color: #fff; text-align: center;
+	padding: 5px 0; border-radius: 6px;  position: absolute; z-index: 1; bottom: 100%;  }
+.tooltip:hover .tooltiptext {visibility: visible;  }
+
+
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 20px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #555;
+  z-index: 9;
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: #555;
+}
+
+.form-container input, .form-container input {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+.form-container .cancel {
+  background-color: red;
+}
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+
+#ran{ padding: 30px 50px 30px 50px; margin-top: 60px; color: purple; font-size: 30px; font-weight: 900;}
+
+.open-log {
+			  background-color: #555;
+			  color: yellow;
+			  padding: 16px 20px;
+			  border: none;
+			  cursor: pointer;
+			  opacity: 0.8;
+			  position: fixed;
+			  top: 23px;
+			  right: 28px;
+			  width: 150px;
+			}
+			
+#b1 {
+	width: 100px;
+	height: 30px;
+	background-color: darkgray;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+}		
+#b1:hover{ box-shadow: 0 4px 8px 0 red, 0 6px 20px 0 rgb(255, 179, 179); background-color: rgb(255, 179, 179); }		
+
+.com_box {
+	width: 840px;
+	padding: 20px;
+	margin-bottom: 4px;
+	
+	border-radius: 4px;
+	
+}
+
+textarea {
+	width: 400px;
+	height: 150px;
+	background-color: antikwhite;
+	resize: none;
+	
+}
+
+.put{ margin-bottom: 5%; padding: 5%; text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+#icocom{ width:200px; height:200px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+.bak{ border: 5px solid black; color: white; background-image: url(gag.JPG); padding: 
+	8px; margin-top: 25px; border-radius: 30px; } 
+
+.bak1{ border: 5px solid black; color: white; background-image: url(back_back.JPG); padding: 
+	15px; margin-top: 25px; border-radius: 30px; } 
+
+#ico3{ width:50px; height:50px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+
+
+
+		
